@@ -1,0 +1,11 @@
+databases:
+- database:
+    name: Sample
+    use:
+    - uri: setup\init.sql
+    - uri: setup\seed.sql
+addons:
+- addon:
+    type: dab
+    use: 
+    - uri: setup\dab-config.json
